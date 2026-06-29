@@ -1,0 +1,40 @@
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Data files (large, reproducible via extract_shots.py)
+data/*.parquet
+data/*.csv
+
+# Trained models (reproducible via train scripts)
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_metadata/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code local machine settings
+.claude/settings.local.json
+
+# Streamlit runtime logs
+reports/_st_*.log

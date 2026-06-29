@@ -1,0 +1,28 @@
+{
+  "model": "Baseline LR",
+  "train": {
+    "log_loss": 0.2558366189386733,
+    "brier_score": 0.07310213541909975,
+    "roc_auc": 0.8192382480236835
+  },
+  "test": {
+    "log_loss": 0.24894896746230336,
+    "brier_score": 0.07116119980507721,
+    "roc_auc": 0.8348601663364339
+  },
+  "benchmark_statsbomb": {
+    "log_loss": 0.2545966465742225,
+    "brier_score": 0.07237996123611877,
+    "roc_auc": 0.8245031677120538
+  },
+  "split": {
+    "train_shots": 52679,
+    "test_shots": 13143,
+    "train_matches": 2123,
+    "test_matches": 528,
+    "match_overlap": 0,
+    "train_goal_rate": 0.10106494048861975,
+    "test_goal_rate": 0.1021836719166096,
+    "test_fraction": 0.19967488073896267
+  }
+}

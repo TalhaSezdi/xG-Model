@@ -1,0 +1,103 @@
+{
+  "shot_level_correlation": {
+    "r_model_vs_statsbomb": 0.8810823751133581,
+    "r_model_vs_actual": 0.47405505551892696,
+    "r_statsbomb_vs_actual": 0.4615003539349395
+  },
+  "team_aggregation": {
+    "n_teams": 130,
+    "r_model_vs_actual": 0.9956442478808518,
+    "r_statsbomb_vs_actual": 0.9948085730930112,
+    "mean_residual": -0.026012923341183453,
+    "std_residual": 3.2206354827289765
+  },
+  "player_aggregation": {
+    "n_players": 303,
+    "min_shots_threshold": 10,
+    "r_model_vs_actual": 0.9808811981323708,
+    "r_statsbomb_vs_actual": 0.9789265276339311,
+    "top_overperformers": [
+      {
+        "player": "Lionel Andr\u00e9s Messi Cuccittini",
+        "actual_goals": 99,
+        "model_xg_total": 85.02183089034632,
+        "over_under": 13.978169109653678,
+        "n_shots": 604
+      },
+      {
+        "player": "Antoine Griezmann",
+        "actual_goals": 15,
+        "model_xg_total": 9.447094653844902,
+        "over_under": 5.552905346155098,
+        "n_shots": 54
+      },
+      {
+        "player": "Cristiano Ronaldo dos Santos Aveiro",
+        "actual_goals": 14,
+        "model_xg_total": 9.861263235155924,
+        "over_under": 4.138736764844076,
+        "n_shots": 101
+      },
+      {
+        "player": "Gonzalo Gerardo Higua\u00edn",
+        "actual_goals": 9,
+        "model_xg_total": 4.955918387457634,
+        "over_under": 4.044081612542366,
+        "n_shots": 40
+      },
+      {
+        "player": "Alejandro Grimaldo Garc\u00eda",
+        "actual_goals": 5,
+        "model_xg_total": 1.5028745890910726,
+        "over_under": 3.4971254109089274,
+        "n_shots": 23
+      }
+    ],
+    "top_underperformers": [
+      {
+        "player": "Aleksandar Mitrovi\u0107",
+        "actual_goals": 0,
+        "model_xg_total": 3.489305917883663,
+        "over_under": -3.489305917883663,
+        "n_shots": 19
+      },
+      {
+        "player": "Martin Braithwaite Christensen",
+        "actual_goals": 5,
+        "model_xg_total": 7.78791297940285,
+        "over_under": -2.78791297940285,
+        "n_shots": 44
+      },
+      {
+        "player": "Victor Okoh Boniface",
+        "actual_goals": 3,
+        "model_xg_total": 5.663923564150925,
+        "over_under": -2.6639235641509247,
+        "n_shots": 33
+      },
+      {
+        "player": "Samuel Eto''o Fils",
+        "actual_goals": 8,
+        "model_xg_total": 10.625400139967537,
+        "over_under": -2.625400139967537,
+        "n_shots": 59
+      },
+      {
+        "player": "Thierry Henry",
+        "actual_goals": 10,
+        "model_xg_total": 12.273978231997969,
+        "over_under": -2.273978231997969,
+        "n_shots": 75
+      }
+    ]
+  },
+  "error_analysis": {
+    "high_xg_miss_count": 139,
+    "high_xg_goal_count": 289,
+    "high_xg_conversion_rate": 0.6752336448598131,
+    "low_xg_goal_count": 338,
+    "high_miss_avg_distance": 9.116578739397212,
+    "low_goal_avg_distance": 19.17618559152382,
+    "low_goal_deflected_rate": 0.008875739644970414
+  }
+}

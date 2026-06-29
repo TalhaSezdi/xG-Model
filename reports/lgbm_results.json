@@ -1,0 +1,98 @@
+{
+  "model": "LightGBM",
+  "best_params": {
+    "objective": "binary",
+    "metric": "binary_logloss",
+    "boosting_type": "gbdt",
+    "n_estimators": 1000,
+    "learning_rate": 0.02,
+    "max_depth": 5,
+    "num_leaves": 31,
+    "min_child_samples": 50,
+    "subsample": 0.7,
+    "colsample_bytree": 0.7,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "cv_log_loss": 0.25566673031540665,
+  "test": {
+    "log_loss": 0.24873346007856154,
+    "brier_score": 0.07112565138222807,
+    "roc_auc": 0.8346240392745813
+  },
+  "benchmark_statsbomb": {
+    "log_loss": 0.2545966465742225,
+    "brier_score": 0.07237996123611877,
+    "roc_auc": 0.8245031677120538
+  },
+  "benchmark_baseline_lr": {
+    "log_loss": 0.24894896746230336,
+    "brier_score": 0.07116119980507721,
+    "roc_auc": 0.8348601663364339
+  },
+  "ece": 0.01757241085042148,
+  "top_15_shap": [
+    {
+      "feature": "ff_dist_to_gk",
+      "mean_abs_shap": 0.4161801503959143
+    },
+    {
+      "feature": "geom_angle_rad",
+      "mean_abs_shap": 0.40044493829745786
+    },
+    {
+      "feature": "ff_n_opponents_in_cone",
+      "mean_abs_shap": 0.2460458982720352
+    },
+    {
+      "feature": "ff_dist_nearest_opponent",
+      "mean_abs_shap": 0.19004600173861985
+    },
+    {
+      "feature": "shot_body_part",
+      "mean_abs_shap": 0.13941571713789655
+    },
+    {
+      "feature": "shot_technique",
+      "mean_abs_shap": 0.11121653093495867
+    },
+    {
+      "feature": "geom_distance",
+      "mean_abs_shap": 0.10356097296370866
+    },
+    {
+      "feature": "ff_gk_off_line",
+      "mean_abs_shap": 0.10205880466595203
+    },
+    {
+      "feature": "score_diff",
+      "mean_abs_shap": 0.08800995487316794
+    },
+    {
+      "feature": "geom_x_dist",
+      "mean_abs_shap": 0.08491909630959177
+    },
+    {
+      "feature": "geom_angle_deg",
+      "mean_abs_shap": 0.0807847957492526
+    },
+    {
+      "feature": "geom_y_dist",
+      "mean_abs_shap": 0.059560231997081596
+    },
+    {
+      "feature": "shot_deflected",
+      "mean_abs_shap": 0.055518215890777683
+    },
+    {
+      "feature": "kp_pass_length",
+      "mean_abs_shap": 0.05505716512633737
+    },
+    {
+      "feature": "kp_pass_angle",
+      "mean_abs_shap": 0.051364460951340445
+    }
+  ]
+}
