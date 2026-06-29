@@ -33,7 +33,8 @@ desktop.ini
 *.swp
 *.swo
 
-# Claude Code local machine settings
+# Claude Code local files (agent instructions, machine settings)
+CLAUDE.md
 .claude/settings.local.json
 
 # Streamlit runtime logs

@@ -1,7 +1,7 @@
 """
-Interaktif xG Dashboard -- profesyonel Streamlit uygulamasi.
+Interactive xG dashboard -- Streamlit application.
 
-Calistirma: streamlit run app.py
+Run with: streamlit run app.py
 """
 
 import json

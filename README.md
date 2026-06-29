@@ -122,6 +122,17 @@ python scripts/validate.py
 python scripts/scouting.py
 ```
 
+### Interactive Dashboard
+
+After the pipeline has produced the model and reports, launch the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+The dashboard exposes the model performance, SHAP analysis, and the player/team
+scouting tables interactively.
+
 ---
 
 ## Feature Engineering
@@ -163,6 +174,7 @@ python scripts/scouting.py
 - **ML**: scikit-learn, LightGBM
 - **Interpretability**: SHAP (TreeExplainer)
 - **Visualization**: matplotlib, seaborn
+- **Dashboard**: Streamlit, Plotly
 - **Data source**: [StatsBomb Open Data](https://github.com/statsbomb/open-data)
 
 ---
