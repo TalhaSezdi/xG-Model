@@ -5,6 +5,10 @@ clinical finishers and wasteful shooters across 65,000+ shots.
 
 ![Project Summary](reports/project_summary.png)
 
+### Interactive Dashboard
+
+![Dashboard](reports/dashboard_screenshot.png)
+
 ---
 
 ## Results
