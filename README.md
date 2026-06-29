@@ -167,6 +167,14 @@ python scripts/scouting.py
 
 ---
 
+## Detailed Walkthrough (Turkish)
+
+A comprehensive Turkish-language document explaining every design decision and its
+alternatives -- intended as a learning resource for junior data scientists:
+[docs/egitim_dokumani.md](docs/egitim_dokumani.md).
+
+---
+
 ## Reports Generated
 
 | File | Description |
